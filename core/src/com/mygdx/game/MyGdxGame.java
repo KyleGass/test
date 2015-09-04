@@ -15,7 +15,7 @@ public class MyGdxGame extends Game {
 	public void create () {
 //		batch = new SpriteBatch();
 //		img = new Texture("badlogic.jpg");
-
+//		testgitline
 		setScreen(new GameScreen());
 	}
 
