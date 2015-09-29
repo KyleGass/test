@@ -26,6 +26,9 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 //tiledMapRenderer = new OrthogonalTiledMapRenderer(tiledMap);
 //Gdx.input.setInputProcessor(this);
 
+
+//TEST
+
 public class MyGdxGame implements ApplicationListener {
 	 private final static int TILESIZE = 32;
 	private final float unitScale = 1F;
