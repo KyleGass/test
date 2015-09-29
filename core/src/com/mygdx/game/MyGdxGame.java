@@ -40,7 +40,7 @@ public class MyGdxGame implements ApplicationListener {
 	@Override
 	public void create() {
 		rotationSpeed = 0.5f;
-
+		System.out.println("committest");
 		map = new TmxMapLoader().load("exampletmx.tmx");
 
 		renderer = new OrthogonalTiledMapRenderer(map, unitScale);
