@@ -41,9 +41,6 @@ public class InputHandler extends InputAdapter {
 		if (Gdx.input.isKeyPressed(Input.Keys.E)) {
 			cam.rotate(Constants.ROTATIONSPEED, 0, 0, 1);
 		}
-		if (Gdx.input.isKeyPressed(Input.Keys.ESCAPE)) {
-			System.exit(0);
-		}
 
 //		cam.zoom = MathUtils.clamp(cam.zoom, unitScale, 100 / cam.viewportWidth);
 
